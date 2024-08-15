@@ -1,7 +1,8 @@
+import './assets/css/App.css'
 import { useState } from "react"
 import { Square } from "./components/Square.jsx"
 import { Board } from "./components/Board.jsx"
-import { TURNS } from "./constants.js"
+import { TURNS } from "./logic/constants.js"
 import { WinnerModal } from "./components/WinnerModal.jsx"
 import { resetGame } from "./logic/board.js"
 import { resetGameStorage } from "./logic/storage.js"

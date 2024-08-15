@@ -1,5 +1,5 @@
 import { Square } from "./Square.jsx"
-import { TURNS } from "../constants.js"
+import { TURNS } from "../logic/constants.js"
 import confetti from "canvas-confetti"
 import { checkWinnerFrom, checkEndGame } from "../logic/board.js"
 import { saveGameToStorage } from "../logic/storage.js"
