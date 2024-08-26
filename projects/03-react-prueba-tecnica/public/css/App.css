@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 100vh;
+    height: 100svh;
+    margin: 0 auto;
+}
+
+p {
+    width: 80%;
+    text-align: center;
+}
